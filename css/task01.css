@@ -1,0 +1,285 @@
+[class*=col-] {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+
+.row {
+  width: 960px;
+  margin: 30px auto;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  color: #3F5D45;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-sm {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.btn-lg {
+  font-size: 24px;
+  padding: 15px;
+}
+
+.d-f {
+  display: flex;
+}
+
+.d-f-ec {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.d-f-sc {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.d-f-cc {
+  justify-content: center;
+  align-items: center;
+}
+
+.fz-lg {
+  font-size: 24px;
+}
+
+.fz-md {
+  font-size: 20px;
+}
+
+.fz-sm {
+  font-size: 16px;
+}
+
+.list-title {
+  background-color: #3F5D45;
+  color: #EAF0ED;
+  font-weight: bold;
+  text-align: center;
+}
+
+.list {
+  padding: 10px;
+}
+
+.square-sm {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+}
+
+.bs-r {
+  border-right: 1px solid #EAF0ED;
+}
+
+.logo {
+  padding: 0 10px;
+}
+
+.header-list {
+  width: 100px;
+  text-align: center;
+}
+.header-list .btn-pic {
+  padding: 5px 0 11px 10px;
+}
+
+.shopping-car {
+  text-align: right;
+}
+
+.aside-list {
+  text-align: center;
+}
+.aside-list .btn:hover {
+  background-color: #EAF0ED;
+}
+
+.goods-list {
+  flex-wrap: wrap;
+}
+.goods-list .btn:hover {
+  background-color: #3F5D45;
+  color: #EAF0ED;
+}
+.goods-list .price {
+  font-weight: bold;
+}
+
+.name, .price {
+  padding: 15px 20px;
+  color: #3F5D45;
+}
+
+main .btn {
+  background-color: #EAF0ED;
+}
+
+.goods-pic {
+  position: relative;
+}
+.goods-pic .fa-add {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.goods-pic .fa-add:hover {
+  opacity: 0.5;
+}
+.goods-pic .list-title {
+  display: inline-block;
+  position: absolute;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  padding: 10px;
+  left: 20px;
+  letter-spacing: 3px;
+}
+
+.footer-list {
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+  vertical-align: center;
+}
+.footer-list .btn {
+  font-weight: normal;
+}
+.footer-list .btn:hover {
+  background-color: #3F5D45;
+  color: #EAF0ED;
+}
+.footer-list .page:hover {
+  background-color: #EAF0ED;
+}

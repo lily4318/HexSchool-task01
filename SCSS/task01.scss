@@ -1,0 +1,85 @@
+@import '_grid-for-screen.scss';
+@import '_reset.scss';
+@import '_global.scss';
+
+.logo{
+  padding:0 10px;
+}
+.header-list{
+  width: 100px;
+  text-align: center;
+  .btn-pic{
+    padding: 5px 0 11px 10px;
+  }
+}
+.shopping-car{
+  text-align: right;
+}
+.aside-list{
+  text-align: center;
+  .btn{
+    &:hover{
+      background-color: $secondary-c;
+    }
+  }
+}
+.goods-list{
+  flex-wrap: wrap;
+  .btn{
+    &:hover{
+      background-color: $primary-c;
+      color: $secondary-c;
+    }
+  }
+  .price{
+    font-weight: bold;
+  }
+}
+.name,.price{
+  padding: 15px 20px;
+  color: $primary-c;
+}
+main{
+  .btn{
+    background-color: $secondary-c;
+  }
+}
+.goods-pic{
+  position: relative;
+  .fa-add{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    &:hover{
+      opacity: 0.5;
+    }
+  }
+  .list-title{
+    display: inline-block;
+    position: absolute;
+    writing-mode: vertical-lr;
+    padding: 10px;
+    left: 20px;
+    letter-spacing: 3px;
+  }
+}
+.footer-list{
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+  vertical-align: center;
+  .btn{
+    font-weight: normal;
+    &:hover{
+      background-color: $primary-c;
+      color: $secondary-c;
+    }
+  }
+  .page{
+    &:hover{
+      background-color: $secondary-c;
+    }
+  }
+}
+
+
